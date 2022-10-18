@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, provident? Odio quod neque dolores, enim repudiandae harum! Sed veniam facere dolor recusandae. Hic nobis dignissimos autem, unde pariatur quidem harum?</p>
+    
+    <iframe src="paginasextras/pagina04.html" sandbox="allow-forms allow-same-origin">
+    referrerpolicy ="no-referrer"
+
+        <!--sandbox oferece proteção ao iframe / referrer policy é a politica de segurança-->>
+
+        Seu navegador não é compatível
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam possimus sapiente voluptatum fugit ad eligendi minima ullam odio distinctio nulla consequatur quibusdam ratione, unde facere. Eos sapiente dignissimos quis!</p>
+
+    <h1>JAVA SCRIPT</h1>
+
+    <a href="#" onclick="clicou()">Clique em mim</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById("saida") 
+            s.innerHTML += '<p>VC CLICOU</p>'
+        }
+    
+    </script>
+    
+</body>
+</html>
