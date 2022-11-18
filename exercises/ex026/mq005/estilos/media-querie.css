@@ -1,0 +1,31 @@
+@charset "UTF-8"
+
+/* Typical Devices Breakpoints
+
+pequenas telas 
+celular
+tablet
+desktop
+grandes telas
+
+*/
+
+@media screen and (min-widh: 768px) {
+   
+    i#burger {
+        display: none
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
